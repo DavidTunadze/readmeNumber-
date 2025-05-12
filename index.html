@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="headerBox">
+            <div class="cornerTitleBox">
+                <h2>Beteen 1 and 20</h2>
+            </div>
+            <div class="mainTitle">
+                <h1>Guess My Number</h1>
+            </div>
+        </section>
+    </header>
+    <section class="intermediateSection">
+        <div class="lineLeft"></div>
+        <div class="secretNumber">
+            <p class="hiddenNumber">~ ? ~</p>
+        </div>
+        <div class="lineRight"></div>
+    </section>
+    <main>
+        <section class="leftHalf">
+            <div>
+                <label for="guess">Enter your guess</label>
+                <input type="number" id="guess">
+                <div class="buttonBox">
+                    <button id="check">Check!</button>
+                    <button id="again">Play Again</button>
+                </div>
+            </div>
+        </section>
+        <section class="rightHalf">
+            <p class="message">Start Guessing...</p>
+            <h3>
+                Score:
+                <span id="score">20</span>
+            </h3>
+            <h3>
+                Highscore:
+                <span id="highScore">0</span>
+            </h3>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

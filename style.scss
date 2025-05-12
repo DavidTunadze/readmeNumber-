@@ -1,0 +1,158 @@
+//
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0,625rem;
+
+    header {
+        .headerBox {
+            width: 100%;
+
+            .cornerTitleBox {
+                width: 100%;
+                display: flex;
+                justify-content: end;
+
+                h2 {
+                    width: 290px;
+                    text-align: center;
+                    font-size: 30px;
+                    border: 4px solid black;
+                    border-radius: 35px;
+                    margin: 15px;
+                }
+
+            }
+
+            .mainTitle {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                h1 {
+                    width: 1110px;
+                    text-align: center;
+                    border: 4px solid black;
+                    border-radius: 35px;
+                }
+            }
+        }
+    }
+
+    .intermediateSection {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+
+        .lineLeft {
+            width: 250px;
+            height: 4px;
+            background-color: black;
+        }
+
+        .secretNumber {
+            position: relative;
+            width: 202px;
+            height: 202px;
+
+            .hiddenNumber {
+                position: absolute;
+                width: 196px;
+                height: 196px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                font-size: 60px;
+                font-weight: bold;
+                border: 4px solid black;
+                border-radius: 50%;
+                background-color: white;
+            }
+        }
+
+        .lineRight {
+            width: 250px;
+            height: 4px;
+            background-color: black;
+        }
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+        .leftHalf {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid black;
+            border-radius: 35px;
+            width: 450px;
+            height: 250px;
+
+            label {
+                display: block;
+                text-align: center;
+                margin-bottom: 5px;
+                font-size: 28px;
+            }
+
+            #guess {
+                width: 430px;
+                border: 4px solid black;
+                border-radius: 35px;
+                margin-bottom: 15px;
+            }
+
+            .buttonBox {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 15px;
+
+                #check {
+                    width: 185px;
+                    height: 85px;
+                    font-size: 25px;
+                    border-radius: 35px;
+                }
+
+                #again {
+                    width: 185px;
+                    height: 85px;
+                    font-size: 25px;
+                    border-radius: 35px;
+                }
+            }
+        }
+
+        .rightHalf {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid black;
+            flex-direction: column;
+            border-radius: 35px;
+            width: 450px;
+            height: 250px;
+
+            p {
+                font-size: 50px;
+            }
+
+            h3 {
+                font-size: 50px;
+            }
+        }
+    }
+}
